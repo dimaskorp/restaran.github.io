@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рестораны</title>
+    <link rel="stylesheet" href="css/style_stores.css">
+</head>
+
+<body>
+    <!--Header start-->
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <a href="#!" class="header_logo_link">
+                        <img src="images/logo.svg" alt="uber eats" class="header_logo_pic">
+                    </a>
+                </div>
+                <nav class="header_nav">
+                    <ul class="header_list">
+                        <li class="header_button">
+                            <a href="#sign-in" class="header_link">Войти</a>
+                        </li>
+                        <li class="header_basket">
+                            <a href="#basket" class="header_link">
+                                <img src="images/basket.png" alt="basket" class="header_item_pic">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Header end-->
+    <main class="main">
+        <div class="wrapper">
+            <!--Cards start-->
+            <section class="cards">
+                <input name="name_search" id="id_seach" onkeyup="myFunction(this.value)"
+                    placeholder="Поиск по ресторанам и кухням" type="search">
+                <h2 class="cards__title">Рестораны в Москве</h2>
+                <div class="cards__items">
+                    <div class="cards__item">
+                        <div class="cards__pic-bock">
+                            <img class="cards__item-pic" src="images/Stores/photo.jpg" alt="Макдоналдс — Газетный">
+                        </div>
+                        <h3 class="cards__item-h3">Макдоналдс — Газетный</h3>
+                        <p class="cards__item-price">&#8381;&#8381; &bull; Бургеры</p>
+                        <p class="cards__item-p">25-35 мин</p>
+                    </div>
+
+                    <div class="cards__item">
+                        <div class="cards__pic-bock">
+                            <img class="cards__item-pic" src="images/Stores/photo-1.jpg" alt="DimSum & Co — ЦДМ">
+                        </div>
+                        <h3 class="cards__item-h3">DimSum & Co — ЦДМ</h3>
+                        <p class="cards__item-price">&#8381; &bull; Японская &bull; Китайская &bull; Азиатская</p>
+                        <p class="cards__item-p">40-50 мин</p>
+                    </div>
+                    <div class="cards__item">
+                        <a href="restaran.html" class="cards__item-link">
+                            <div class="cards__pic-bock">
+                                <img class="cards__item-pic" src="images/Stores/photo-2.jpg" alt='Трактир "Пушкин"'>
+                            </div>
+                            <h3 class="cards__item-h3">Трактир "Пушкин"</h3>
+                            <p class="cards__item-price">&#8381;&#8381;&#8381; &bull; Европейская</p>
+                            <p class="cards__item-p">40-50 мин</p>
+                        </a>
+                    </div>
+                    <div class="cards__item">
+                        <div class="cards__pic-bock">
+                            <img class="cards__item-pic" src="images/Stores/photo-3.jpg" alt="НЯ — NHA">
+                        </div>
+                        <h3 class="cards__item-h3">НЯ — NHA</h3>
+                        <p class="cards__item-price">&#8381;&#8381; &bull; Вьетнамская</p>
+                        <p class="cards__item-p">30-40 мин</p>
+                    </div>
+                    <div class="cards__item">
+                        <div class="cards__pic-bock">
+                            <img class="cards__item-pic" src="images/Stores/photo-4.jpg" alt="Точка Дзы — Цветной">
+                        </div>
+                        <h3 class="cards__item-h3">Точка Дзы — Цветной</h3>
+                        <p class="cards__item-price">&#8381;&#8381; &bull; Вьетнамская</p>
+                        <p class="cards__item-p">40-50 мин</p>
+                    </div>
+                    <div class="cards__item">
+                        <div class="cards__pic-bock">
+                            <img class="cards__item-pic" src="images/Stores/photo-5.jpg" alt="Cinnabon">
+                        </div>
+                        <h3 class="cards__item-h3">Cinnabon</h3>
+                        <p class="cards__item-price">&#8381;&#8381; &bull; Выпечка &bull; Десерты &bull; Капкейки</p>
+                        <p class="cards__item-p">25-35 мин</p>
+                    </div>
+                    <div class="cards__item">
+                        <div class="cards__pic-bock">
+                            <img class="cards__item-pic" src="images/Stores/photo-6.jpg" alt="PIZZELOVE">
+                        </div>
+                        <h3 class="cards__item-h3">PIZZELOVE</h3>
+                        <p class="cards__item-price">&#8381;&#8381; &bull; Пицца</p>
+                        <p class="cards__item-p">15-25 мин</p>
+                    </div>
+                    <div class="cards__item">
+                        <div class="cards__pic-bock">
+                            <img class="cards__item-pic" src="images/Stores/photo-7.jpg" alt="Zю кафе — Тверская">
+                        </div>
+                        <h3 class="cards__item-h3">Zю кафе — Тверская</h3>
+                        <p class="cards__item-price">&#8381;&#8381; &bull; Японская</p>
+                        <p class="cards__item-p">25-35 мин</p>
+                    </div>
+                    <div class="cards__item">
+                        <div class="cards__pic-bock">
+                            <img class="cards__item-pic" src="images/Stores/photo-8.jpg" alt="Bar BQ Cafe — Манежная">
+                        </div>
+                        <h3 class="cards__item-h3">Bar BQ Cafe — Манежная</h3>
+                        <p class="cards__item-price">&#8381;&#8381;&#8381; &bull; Европейская</p>
+                        <p class="cards__item-p">30-40 мин</p>
+                    </div>
+                </div>
+            </section>
+            <!--Cards end-->
+        </div>
+    </main>
+    <!--Footer start-->
+    <footer class="footer">
+        <div class="wrapper">
+            <img class="footer__logo" src="images/white-logo.svg" alt="uber eats">
+            <div class="footer__items">
+                <div class="footer__item">
+                    <div class="dropdown">
+                        <label for="touch"><span class="span__language">Русский</span></label>
+                        <input type="checkbox" id="touch">
+                        <ul class="slide">
+                            <li><a class="slide__href" href="#!">English</a></li>
+                            <li><a class="slide__href" href="#!">Français</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__social">
+                        <h3 class="footer__social-h3"><span>#</span>UberEats</h3>
+                        <a href="#!
+                    " class="footer__social-link">
+                            <img class="footer__social-pic" src="images/social_icon/facebook.png" alt="facebook">
+                        </a>
+                        <a href="#!
+                    " class="footer__social-link">
+                            <img class="footer__social-pic" src="images/social_icon/twitter.png" alt="twitter">
+                        </a>
+                        <a href="#!
+                    " class="footer__social-link">
+                            <img class="footer__social-pic" src="images/social_icon/instagram.png" alt="instagram">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__nav">
+                    <ul class="footer__menu">
+                        <li class="footer__list">
+                            <a href="#!" class="footer__link">Об UberEats</a>
+                        </li>
+                        <li class="footer__list">
+                            <a href="#!" class="footer__link">Станьте партнёром по доставке</a>
+                        </li>
+                        <li class="footer__list">
+                            <a href="#!" class="footer__link">Станьте парнёром-рестораном</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__menu">
+                        <li class="footer__list">
+                            <a href="#!" class="footer__link">Все города</a>
+                        </li>
+                        <li class="footer__list">
+                            <a href="#!" class="footer__link">Цены</a>
+                        </li>
+                        <li class="footer__list">
+                            <a href="#!" class="footer__link">Помощь</a>
+                        </li>
+                        <li class="footer__list">
+                            <a href="#!" class="footer__link">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dowloads">
+                <a href="#!" class="download__link">
+                    <img src="images/google_play.png" alt="google play" class="download__store"></a>
+                <a href="#!">
+                    <img src="images/app_store.png" alt="app store" class="download__store"></a>
+            </div>
+            <div class="bottom">
+                <div class="bottom__nav">
+                    <ul class="bottom__lists">
+                        <li class="bottom__list">
+                            <a href="#!" class="bottom__link">© 2017 Uber Technologies Inc.</a>
+                        </li>
+                    </ul>
+                    <ul class="bottom__lists">
+                        <li class="bottom__list">
+                            <a href="#!" class="bottom__link">Обработка персональных данных</a>
+                        </li>
+                    </ul>
+                    <ul class="bottom__lists">
+                        <li class="bottom__list">
+                            <a href="#!" class="bottom__link">Пользовательское соглашение</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a class="btn-up" href="#"></a>
+    </footer>
+    <!--Footer end-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/stores.js"></script>
+</body>
+
+</html>
